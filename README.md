@@ -115,9 +115,9 @@ docker-compose down
 5. Système de génération automatique des rapports
 
 ## Contact
-- Stagiaire : [Votre nom]
-- Encadrant : [Nom de l'encadrant]
-- Email : support@plogg.com
+- Stagiaire : DOULA Chamseddine
+- email:chamseddine.doula@esprit.tn
+
 
 ## Remerciements
 Sincères remerciements à l'équipe de Plogg Tunisie pour leur encadrement et leur support tout au long de ce stage.
