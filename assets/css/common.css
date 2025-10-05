@@ -1,0 +1,52 @@
+.export-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.btn-custom {
+    background: linear-gradient(90deg, #007bff 0%, #008cff 100%);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.content-wrapper {
+    min-height: 583.4px;
+    border-radius: 12px;
+    margin: 15px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    margin-bottom: 2rem;
+}
+
+.table thead th {
+    background: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0c427b;
+    margin-bottom: 1.5rem;
+}
+
+/* ... autres styles communs ... */

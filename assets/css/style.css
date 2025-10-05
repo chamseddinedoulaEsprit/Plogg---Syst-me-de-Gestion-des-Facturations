@@ -1,0 +1,121 @@
+:root {
+  --primary: #007bff;
+  --primary-dark: #0056b3;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --danger: #dc3545;
+  --white: #fff;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --border-radius: 12px;
+  --box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+/* Layout */
+.main-header,
+.main-footer,
+.content-wrapper,
+.card {
+  border-radius: var(--border-radius);
+}
+
+.card {
+  box-shadow: var(--box-shadow);
+  margin-bottom: 2rem;
+}
+
+/* Tables */
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 1rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--light);
+}
+
+/* Buttons */
+.btn-custom {
+  background: linear-gradient(90deg, var(--primary) 0%, #008cff 100%);
+  color: var(--white);
+  border: none;
+  border-radius: 25px;
+  padding: 0.75rem 2rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: linear-gradient(90deg, var(--primary-dark) 0%, var(--primary) 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Forms */
+.form-control,
+.custom-select {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease;
+}
+
+.form-control:focus,
+.custom-select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Custom Components */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.input-file {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--white);
+  background: var(--primary-dark);
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.input-file:hover {
+  background: var(--primary);
+  transform: translateY(-1px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content-wrapper,
+  .container-fluid,
+  .card {
+    padding: 0.5rem !important;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .table-responsive {
+    margin: 0 -0.5rem;
+  }
+  
+  .btn-custom {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
